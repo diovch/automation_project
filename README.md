@@ -8,6 +8,8 @@
 
 - python -m venv venv
 
+- source env/bin/activate
+
 - pip install -r requirements.txt
 
 - pytest -v --tb=line --language=en -m need_review
