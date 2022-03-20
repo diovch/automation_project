@@ -22,7 +22,6 @@ class TestLoginFromMainPage:
         page.should_be_login_link()
 
 
-@pytest.mark.cur
 def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"
     main_page = MainPage(browser, link)
